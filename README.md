@@ -3,4 +3,6 @@ This script allows you to automate the push of a folder every 3600s. The script 
 
 **NB: The "cron-push" folder must be entered if you are interested in pushing**
 
-After the download launch the *config.sh* file
+After the download launch the **config.sh** file
+
+To change the time from 3600s to 'any other', go to **chrono-push.sh** and change the time of the sleep function

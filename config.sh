@@ -10,4 +10,5 @@ mv off-push.sh.desktop ~/.config/autostart/
 
 rm -rf .git
 rm -f README.md
+rm -f replace.sh
 rm -f config.sh

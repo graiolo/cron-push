@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=PATH/crono-push.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en]=crono-push
+Name=time psuh
+Comment[en]=self push for github time set 3600sec
+Comment=self push for github

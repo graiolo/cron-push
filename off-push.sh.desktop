@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=PATH/off-push.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en]=log off push
+Name=log off push
+Comment[en]=self push when you log off
+Comment=self push when you log off

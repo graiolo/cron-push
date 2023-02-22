@@ -8,4 +8,6 @@ chmod 777 *
 mv crono-push.sh.desktop ~/.config/autostart/
 mv off-push.sh.desktop ~/.config/autostart/
 
-rm config.sh
+rm -rf .git
+rm -f README.md
+rm -f config.sh

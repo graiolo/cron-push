@@ -8,7 +8,7 @@ for file in "$@"; do
         if grep -q "$regex" "$file"; then
             awk -v regex="$regex" -v replacement="$replacement" '{gsub(regex, replacement)}1' "$file" > tmpfile && mv tmpfile "$file"
         else
-            break
+            break 
         fi
     done
 done

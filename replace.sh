@@ -1,7 +1,7 @@
 #!/bin/bash
 
 regex="PATH"
-replacement="$(pwd)"
+replacement="$(dirname "$(pwd)")"
 
 for file in "$@"; do
     while (true); do

@@ -3,7 +3,8 @@
 ft_push() {
     cd PATH && git add .
     cd PATH && git commit -m "Push (log off): $(date)"
-    cd PATH  && git push
+    cd PATH && git push
+    exit 0
 }
 
 trap ft_push SIGTERM

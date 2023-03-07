@@ -1,4 +1,4 @@
-chmod 777 *
+chmod +x off-push.sh crono-push.sh
 
 ./replace.sh crono-push.sh.desktop
 ./replace.sh off-push.sh.desktop
